@@ -1,8 +1,8 @@
-# Revisi Buku Tamu
+# Dokumentasi Kustomisasi Website
 
-- [x] Tinjau alur RSVP dan buku tamu yang sudah ada.
-- [x] Tambahkan alur kolom ucapan yang jelas untuk tamu.
-- [x] Simpan pesan secara lokal tanpa seed atau testimonial palsu.
-- [x] Tampilkan empty state dan daftar pesan setelah berhasil dikirim.
-- [x] Verifikasi validasi form, aksesibilitas, dan responsive layout.
-- [x] Simpan checkpoint revisi dan serahkan hasil.
+- [x] Susun struktur dokumentasi kustomisasi untuk pengguna non-teknis dan developer.
+- [x] Dokumentasikan konfigurasi pasangan, URL tamu, acara, kalender, peta, musik, pembayaran, dan galeri.
+- [x] Dokumentasikan RSVP/buku tamu berbasis localStorage serta batasan frontend-only.
+- [x] Dokumentasikan penggantian aset visual, tema, font, dan build lokal.
+- [x] Periksa isi dokumentasi dan sinkronkan ke repository GitHub.
+- [x] Laporkan lokasi file dan hasil sinkronisasi.
