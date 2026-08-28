@@ -50,3 +50,15 @@ footer { background:var(--ink);color:var(--ivory);padding:90px 20px 120px;text-a
 @media (prefers-reduced-motion:reduce) {
   .story [data-reveal], .gallery-grid .gallery-item { opacity:1; transform:none; transition:none; }
 }
+
+/* Guestbook treatment: a quiet printed register, not a generic card list. */
+.guestbook { position:relative; }
+.guestbook:before { content:""; position:absolute; top:-1px; left:0; width:58px; border-top:2px solid var(--terracotta); }
+.guestbook > .eyebrow { padding-top:12px; }
+.empty-state { border-left:2px solid var(--paper); padding:14px 18px; margin:18px 0 0; max-width:520px; }
+.guest-entry { position:relative; padding:22px 0 22px 18px; }
+.guest-entry:before { content:""; position:absolute; top:0; bottom:0; left:0; width:1px; background:var(--paper); }
+.guest-entry div { align-items:baseline; gap:16px; }
+.guest-entry p { max-width:600px; color:rgba(37,37,36,.72); }
+.form-error { margin:0; color:var(--terracotta-deep); font-size:12px; line-height:1.5; }
+@media (max-width:800px) { .guestbook { margin-top:65px; } .guest-entry { padding-left:14px; } }
